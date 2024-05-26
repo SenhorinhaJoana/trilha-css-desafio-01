@@ -77,3 +77,61 @@ button{
     border-image-slice: 10;
     border-radius: 30px;
 }
+main{
+    color: white;
+}
+#course-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    text-align: center;
+}
+#course-content .modules-list {
+    margin: 24px 0;
+  }
+#course-content h2{
+    color: #33A8DB ;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 19%;
+}
+#course-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    width: 792px;
+    height: 38px;
+}
+span{
+    color: #33A8DB;  
+}
+.modules-list{
+    width: Hug (792px)px;
+height: Hug (325px)px;
+top: 723px;
+left: 324px;
+gap: 24px;
+opacity: 0px;
+
+}
+#course-content .modules-list .module{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    width:  530px;
+    border: 1px solid #33A8DB;
+    margin: 0 24px;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    gap: 40px;
+}
+   
+   
+
+
